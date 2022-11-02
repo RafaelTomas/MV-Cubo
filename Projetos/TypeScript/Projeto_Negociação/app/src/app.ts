@@ -12,6 +12,3 @@ if(form){
     throw Error('Não foi possivel começar a aplicação verifique se o form existe')
 }
 
-// const negociacoesView = new NegociacoesView()
-// const template = negociacoesView.template();
-// console.log(template);
