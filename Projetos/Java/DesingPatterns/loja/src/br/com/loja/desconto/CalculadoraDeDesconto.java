@@ -7,9 +7,9 @@ import br.com.loja.orcamento.Orcamento;
 public class CalculadoraDeDesconto {
 
 	public BigDecimal calcular(Orcamento orcamento) {
-		Desconto desconto = new DescontoParaOrcamentoComMaisDeCincoItens(
+		Desconto cadeiaDeDesconto = new DescontoParaOrcamentoComMaisDeCincoItens(
 				new DescontoParaOrcamentoComValorMaiorQueQuinhentos(new SemDesconto()));
 
-		return desconto.calcular(orcamento);
+		return cadeiaDeDesconto.calcular(orcamento);
 	}
 }
