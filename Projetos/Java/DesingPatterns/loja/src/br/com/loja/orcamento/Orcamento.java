@@ -18,14 +18,13 @@ public class Orcamento {
 	}
 
 	public void aplicarDescontoExtra() {
-		BigDecimal valorDoDescontoExtra = this.situacao.calcularValorDescontoExtra(this);		
+		BigDecimal valorDoDescontoExtra = this.situacao.calcularValorDescontoExtra(this);
 		this.valor = this.valor.subtract(valorDoDescontoExtra);
 	}
 
 	public void aprovar() {
 		this.situacao.aprovar(this);
 	}
-	
 
 	public void reprovar() {
 		this.situacao.reprovar(this);
