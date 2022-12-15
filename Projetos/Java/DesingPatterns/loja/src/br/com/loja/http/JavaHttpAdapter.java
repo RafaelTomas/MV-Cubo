@@ -1,4 +1,4 @@
-package br.com.alura.loja.http;
+package br.com.loja.http;
 
 import java.net.URL;
 import java.net.URLConnection;

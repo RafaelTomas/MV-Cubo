@@ -1,8 +1,8 @@
-package br.com.alura.loja.imposto;
+package br.com.loja.imposto;
 
 import java.math.BigDecimal;
 
-import br.com.alura.loja.orcamento.Orcamento;
+import br.com.loja.orcamento.Orcamento;
 
 public class ISS extends Imposto {
 

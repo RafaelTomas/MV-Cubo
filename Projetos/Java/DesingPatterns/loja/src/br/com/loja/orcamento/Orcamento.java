@@ -1,12 +1,12 @@
-package br.com.alura.loja.orcamento;
+package br.com.loja.orcamento;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
-import br.com.alura.loja.orcamento.situacao.EmAnalise;
-import br.com.alura.loja.orcamento.situacao.Finalizado;
-import br.com.alura.loja.orcamento.situacao.SituacaoOrcamento;
+import br.com.loja.orcamento.situacao.EmAnalise;
+import br.com.loja.orcamento.situacao.Finalizado;
+import br.com.loja.orcamento.situacao.SituacaoOrcamento;
 
 public class Orcamento implements Orcavel {
 

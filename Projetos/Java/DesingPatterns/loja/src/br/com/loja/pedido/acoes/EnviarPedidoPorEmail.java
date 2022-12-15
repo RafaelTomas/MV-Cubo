@@ -1,6 +1,6 @@
-package br.com.alura.loja.pedido.acoes;
+package br.com.loja.pedido.acoes;
 
-import br.com.alura.loja.pedido.Pedido;
+import br.com.loja.pedido.Pedido;
 
 public class EnviarPedidoPorEmail implements AcaoAposGerarPedido {
 	

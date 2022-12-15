@@ -1,12 +1,12 @@
-package br.com.alura.loja.pedido;
+package br.com.loja.pedido;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
 import java.util.List;
 
-import br.com.alura.loja.orcamento.ItemOrcamento;
-import br.com.alura.loja.orcamento.Orcamento;
-import br.com.alura.loja.pedido.acoes.AcaoAposGerarPedido;
+import br.com.loja.orcamento.ItemOrcamento;
+import br.com.loja.orcamento.Orcamento;
+import br.com.loja.pedido.acoes.AcaoAposGerarPedido;
 
 public class GeraPedidoHandler {
 

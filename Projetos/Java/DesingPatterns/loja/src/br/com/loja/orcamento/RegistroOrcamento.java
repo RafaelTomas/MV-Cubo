@@ -1,9 +1,9 @@
-package br.com.alura.loja.orcamento;
+package br.com.loja.orcamento;
 
 import java.util.Map;
 
-import br.com.alura.loja.DomainException;
-import br.com.alura.loja.http.HttpAdapter;
+import br.com.loja.DomainException;
+import br.com.loja.http.HttpAdapter;
 
 public class RegistroOrcamento {
 
