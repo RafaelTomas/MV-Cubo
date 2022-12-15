@@ -1,17 +1,19 @@
-package br.com.loja.orcamento.situacao;
+package br.com.alura.loja.orcamento.situacao;
 
 import java.math.BigDecimal;
 
-import br.com.loja.orcamento.Orcamento;
+import br.com.alura.loja.DomainException;
+import br.com.alura.loja.orcamento.Orcamento;
 
 public class Aprovado extends SituacaoOrcamento {
 
-	public BigDecimal calcularValorDesconotoExtra(Orcamento orcamento) {
-		return orcamento.getValor().multiply(new BigDecimal("0.05"));
-	}
-	
 	@Override
-	public void finalizar(Orcamento orcamento) { 
+	public BigDecimal calcularDescontoExtra(Orcamento orcamento) {
+		return orcamento.getValor().multiply(new BigDecimal("0.02"));
+	}
+
+	@Override
+	public void finalizar(Orcamento orcamento) throws DomainException {
 		orcamento.setSituacao(new Finalizado());
 	}
 

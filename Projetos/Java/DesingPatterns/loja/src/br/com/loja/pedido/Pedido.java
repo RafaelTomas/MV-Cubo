@@ -1,14 +1,15 @@
-package br.com.loja.pedido;
+package br.com.alura.loja.pedido;
 
 import java.time.LocalDateTime;
 
-import br.com.loja.orcamento.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 
 public class Pedido {
+
 	private String cliente;
 	private LocalDateTime data;
 	private Orcamento orcamento;
-	
+
 	public Pedido(String cliente, LocalDateTime data, Orcamento orcamento) {
 		this.cliente = cliente;
 		this.data = data;
@@ -26,7 +27,5 @@ public class Pedido {
 	public Orcamento getOrcamento() {
 		return orcamento;
 	}
-	
-	
-	 
+
 }

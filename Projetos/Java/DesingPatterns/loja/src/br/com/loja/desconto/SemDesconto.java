@@ -1,8 +1,8 @@
-package br.com.loja.desconto;
+package br.com.alura.loja.desconto;
 
 import java.math.BigDecimal;
 
-import br.com.loja.orcamento.Orcamento;
+import br.com.alura.loja.orcamento.Orcamento;
 
 public class SemDesconto extends Desconto {
 
@@ -18,4 +18,5 @@ public class SemDesconto extends Desconto {
 	public boolean deveAplicar(Orcamento orcamento) {
 		return true;
 	}
+
 }
