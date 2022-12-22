@@ -1,4 +1,4 @@
-package escola.aluno;
+package escola.dominio.aluno;
 
 public class Telefone {
     private String numero;

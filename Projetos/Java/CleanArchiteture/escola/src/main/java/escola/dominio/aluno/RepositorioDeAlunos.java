@@ -1,2 +1,9 @@
-package escola.dominio.aluno;public interface RepositorioDeAlunos {
+package escola.dominio.aluno;
+
+import java.util.List;
+
+public interface RepositorioDeAlunos {
+    void matricular(Aluno aluno);
+    Aluno buscarPorCPF(CPF cpf);
+    List<Aluno> listarTodosAlunosMatriculados();
 }
